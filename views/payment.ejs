@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/payment.css">
+    <link rel="shortcut icon" href="/IMAGES/credit-card.png" type="image/x-icon">
+    <title>Payment</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="amount">Enter amount</label>
+            <input type="number" name="amount" placeholder="5000">
+            <p class="warning hide">Please enter amount</p class="display hide">
+            <button type="submit">Pay</button>
+        </form>
+    </div>
+    <script src="/JS/payment.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</body>
+</html>
